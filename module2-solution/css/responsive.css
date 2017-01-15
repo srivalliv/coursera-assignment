@@ -1,0 +1,268 @@
+body
+{
+	background-color:#ffffff;
+	font-size:120%;
+}
+/* base styles */
+h1
+{
+	text-align: center;
+	font-size: 1.6em;
+}
+.maindiv
+{
+	width:100%;
+	height:auto;
+	float:left;
+}
+.section1
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #FAF9F5;
+	font-size:0.8em;
+	overflow: hidden;
+
+}
+.section2
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #ffffcc;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.section3
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: lightblue;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.sectiontitle
+{
+	width:100px;
+	height:20px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:1px solid #000;
+	border-top:0px;
+	border-right:0px;
+	padding:2px;
+	text-align:center;
+	font-size:1em;
+}
+
+.section1 .sectiontitle
+{
+	background-color:#999;
+}
+.section2 .sectiontitle
+{
+	background-color:#B2D600 ;
+}
+.section3 .sectiontitle
+{
+	background-color:pink;
+}
+
+
+/*large devices only desktop view*/
+@media  (min-width: 992px){
+
+.section1
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #FAF9F5;
+	font-size:0.8em;
+	overflow: hidden;
+
+}
+.section2
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #ffffcc;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.section3
+{
+	width:27%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: lightblue;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.sectiontitle
+{
+	width:100px;
+	height:20px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:1px solid #000;
+	border-top:0px;
+	border-right:0px;
+	padding:2px;
+	text-align:center;
+	font-size:1em;
+}
+
+}
+
+/* Tablet view 768px and 991px */
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+.section1
+{
+	width:43%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #FAF9F5;
+	font-size:0.8em;
+	overflow: hidden;
+
+}
+.section2
+{
+	width:43%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #ffffcc;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.section3
+{
+	width:93%;
+	height:117px;
+	float:left;
+	margin:2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: lightblue;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.sectiontitle
+{
+	width:100px;
+	height:20px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:1px solid #000;
+	border-top:0px;
+	border-right:0px;
+	padding:2px;
+	text-align:center;
+	font-size:1em;
+}
+
+}
+
+/* mobile view below 768px */
+
+@media  (min-width:320px) and (max-width: 767px)
+{
+	.section1
+{
+	width:93%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #FAF9F5;
+	font-size:0.8em;
+	overflow: hidden;
+
+}
+.section2
+{
+	width:93%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: #ffffcc;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.section3
+{
+	width:93%;
+	height:117px;
+	float:left;
+	margin:2.2%;
+	border:1px solid #000;
+	padding:30px 10px 10px 10px;
+	position: relative;
+	background-color: lightblue;
+	font-size:0.8em;
+	overflow: hidden;
+}
+.sectiontitle
+{
+	width:100px;
+	height:20px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	border:1px solid #000;
+	border-top:0px;
+	border-right:0px;
+	padding:2px;
+	text-align:center;
+	font-size:1em;
+}
+
+}
